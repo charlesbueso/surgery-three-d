@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Dropdown.css';
 
 export const Dropdown = ({ options, onSelect }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,7 @@ export const Dropdown = ({ options, onSelect }) => {
 
   return (
     <div className="dropdown">
-      <button onClick={toggleDropdown}>{isOpen ? 'Close' : 'Dropdown'}</button>
+      <button onClick={toggleDropdown}>{isOpen ? 'Hide' : 'Show models'}</button>
       {isOpen && (
         <ul className="dropdown-options">
           {options.map((option) => (
