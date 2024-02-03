@@ -1,7 +1,8 @@
 /* Dropdown container */
 .dropdown {
     position: absolute; /* Enable dropdown positioning */
-    margin-right: 2%;
+    margin-right: -80%;
+    margin-bottom: -20%;
   }
   
   /* Button styling */

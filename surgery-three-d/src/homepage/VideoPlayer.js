@@ -1,19 +1,3 @@
-// import React from 'react';
-// import surgery from './nature.mp4';
-// import './VideoPlayer.css';
-
-// const VideoPlayer = () => {
-//   return (
-//     <div className="video-container">
-//       <video width="100%" height="100%" controls>
-//         <source src={surgery} type="video/mp4" />
-//       </video>
-//     </div>
-//   );
-// };
-
-// export default VideoPlayer;
-
 import React, { useState } from 'react';
 import surgery from './nature.mp4';
 import './VideoPlayer.css';
