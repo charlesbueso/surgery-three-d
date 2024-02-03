@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-player": "^2.14.1",
+    "react-three-fiber": "^6.0.13",
+    "styled-components": "^6.1.8",
+    "three": "^0.161.0"
+  }
+}
